@@ -1,0 +1,80 @@
+.fortnite__wrappe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fort_img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.fort_img div{
+    width:32% ;
+}
+.fort_img img{
+   border-radius: calc(var(--border-radius-praimary) / 2);
+   width: 100%;
+}
+
+.fortnite__p{
+    color: #666;
+    margin-top: 30px;
+    line-height: 30px;
+}
+p span{
+    color: #ccc;
+   cursor: pointer;
+   transition: all .6s;
+}
+p span:hover{
+    color: #F99;    
+}
+
+.fortnite_btn{
+    text-align: center;
+    margin-top: 40px;
+}
+.fortnite_btn a{
+    padding: 13px 300px;
+}
+
+@media (max-width:990px){
+    .fortnite__wrappe{
+        display: block;  
+    }
+    .fortnite__wrappe .fortnite__ul{
+        width: 100%;
+    }
+    .fortnite__wrappe .fortnite{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .fort_img{
+        display: block;
+    }
+    .fort_img div{
+        width: 100%;
+    }
+    .fort_img img{
+        margin-bottom: 30px;
+    }
+    .fortnite_btn a{
+        padding: 13px 25px;
+    }
+    
+}
+@media (max-width:412px){
+    .fortnite_btn a{
+        padding: 13px 5px;
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:375px){
+    .fortnite__p{
+       font-size: 15px;
+    }
+    
+}
+

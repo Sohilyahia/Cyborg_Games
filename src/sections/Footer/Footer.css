@@ -1,0 +1,26 @@
+footer p{
+    text-align: center;
+    padding: 30px 0px;
+    color: var(--color-light);
+    font-weight: var(--font-weight-normal);
+    line-height: 30px;
+}
+
+
+footer p a {
+    color: #fff;
+    transition: all .3s;
+}
+
+
+
+footer p a:hover {
+    color: var(--color-primary);
+    
+}
+@media(max-width:414px){
+    footer p{
+      font-size: 12px;
+    }
+    
+}

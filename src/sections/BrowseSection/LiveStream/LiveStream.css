@@ -1,0 +1,25 @@
+.live__stream__card__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.live{
+    text-align: center;
+    margin: 50px 0;
+}
+.live span{
+   color: var(--color-primary);
+}
+
+
+@media (max-width: 988px){
+    .live__stream__card__wrapper{
+        display: grid;
+        gap: 20px;
+    }
+}
+
+.live___main .Primary__Btn{
+    text-align: center;
+    margin-top: 50px;
+}

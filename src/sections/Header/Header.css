@@ -1,0 +1,19 @@
+.cyborg-navbar{
+  min-height: 85px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+  color: var(--color-primary);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: var(--color-primary);
+}
+
+@media(max-width:280px){
+  .navbar-brand{
+    margin: 0;
+}
+  .navbar-brand  img{
+    width: 150px;
+}
+}

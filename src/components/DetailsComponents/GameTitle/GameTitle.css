@@ -1,0 +1,28 @@
+.fortnite{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-dark);
+    padding: 30px;
+    width: 48%;
+    border-radius: calc((var(--border-radius-praimary)) / 2.5);
+}
+.title h4{
+    font-size: 15px;
+    font-weight: var(--font-weight-bold);
+}
+.title span{
+    opacity: .4;
+    font-size: 15px;
+    font-weight: var(--font-weight-normal);
+}
+
+@media(max-width:360px){
+    .fortnite{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .fortnite ul li{
+
+        font-size: 14px;
+    }
+}

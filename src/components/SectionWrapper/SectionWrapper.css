@@ -1,0 +1,15 @@
+.section__wrapper{
+  background-color: var(--color-darkest);
+  border-radius: calc(var(--border-radius-praimary)/1.6);
+  padding: calc(var(--padding-primary)/1.5);
+  margin-top: var(--margin-primary);
+}
+
+@media(max-width:375px){
+  .section__wrapper{
+
+    padding: calc(var(--padding-primary)/3);
+
+  }
+  
+}

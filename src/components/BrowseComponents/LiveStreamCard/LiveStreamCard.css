@@ -1,0 +1,26 @@
+.live__stream__wrapper{
+    border: 1px solid #444;
+    border-radius: calc(var(--border-radius-praimary) / 2.5);
+    padding: 30px;
+    flex: 0 0 30%;
+    
+}
+.live__img{
+    margin-bottom: 20px;
+}
+
+.live__img img{
+    border-radius: 50%
+}
+
+.live__title{
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.live__content{
+    line-height: 30px;
+    font-size: 15px;
+    color: #666;
+}
+

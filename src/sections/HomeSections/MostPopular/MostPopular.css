@@ -1,0 +1,19 @@
+.most__popular__items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: calc(var(--margin-primary)/2);
+  
+}
+.btn__margin{
+  width: 100%;
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: -60px;
+}
+@media (max-width:280px) {
+  .most__popular__items{
+    display: grid;
+    grid-template-columns: repeat( 1 , 1fr );
+  }
+}

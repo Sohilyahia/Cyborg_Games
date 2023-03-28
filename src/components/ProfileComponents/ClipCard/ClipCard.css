@@ -1,0 +1,53 @@
+.clip-card{
+    flex: 0 0 23%;
+    background-color:#27292a;
+    padding: 30px 15px;
+    margin-top: 30px;
+    border-radius: calc(var( --border-radius-praimary)/2);
+}
+.clip-img img{
+    width: 100%;
+    border-radius: calc(var( --border-radius-praimary)/2);
+}
+.clip-img{
+    position: relative;
+}
+.clip-img a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-23px, -23px);
+    color: var(--color-primary);
+    background-color: white;
+    width: 46px;
+    height: 46px;
+    border-radius: var(--border-radius-praimary);
+    text-align: center;
+    line-height: 42px;
+}
+.clip-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.clip-content h4{
+    font-size: 15px;
+    font-weight: var( --font-weight-bold);
+}
+.clip-content span{
+    font-size: 14px;
+    font-weight: var( --font-weight-normal);
+}
+@media (max-width:992px){
+    .clip-card{
+        flex: 0 0 45%;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width:575px){
+    .clip-card{
+        flex: 0 0 98%;
+        margin-bottom: 25px;
+    }
+}

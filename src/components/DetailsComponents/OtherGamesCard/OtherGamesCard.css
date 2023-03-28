@@ -1,0 +1,56 @@
+.other__games__card{
+    border-bottom: 1px solid#27292a;
+}
+.other__games__card ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other__games__card ul .dota{
+    display: flex;
+    align-items: center;
+}
+
+ 
+.other__games__card ul .dota img{
+    border-radius: calc(var(--border-radius-praimary) /2.5);
+    margin-right: 20px;
+}
+
+.other__games__card ul .dota h4{
+    font-size: 15px;
+}
+ 
+.other__games__card ul .dota span{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+@media(max-width:414px){
+    .other__games__card ul{
+        padding: 0;
+    }
+    .other__games__card ul li:last-child{
+        font-size: 13px;
+    }
+}
+ 
+@media(max-width:360px){
+    .other__games__card ul .dota img{
+        border-radius: calc(var(--border-radius-praimary) /2.5);
+        margin-right: 10px;
+    }
+ 
+    .other__games__card ul li:last-child{
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        margin-left: 5px;
+    }
+    .other__games__card ul .dota span{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+}
+ 

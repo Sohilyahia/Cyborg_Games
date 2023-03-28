@@ -1,0 +1,38 @@
+.fortnite__ul{
+    background-color: var(--color-dark);
+    padding: 30px;
+    width: 48%;
+    border-radius: calc((var(--border-radius-praimary)) / 2.5);
+}
+.fortnite__ul ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fortnite__ul ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+@media(max-width:414px){
+    .fortnite__ul ul{
+     padding: 0;
+     margin-bottom: 0;
+    }
+    .fortnite__ul ul li span{
+     font-size: 14px;
+    }
+    .fortnite__ul ul li {
+     font-size: 14px;
+    }
+}
+@media(max-width:360px){
+   
+    .fortnite__ul ul li span{
+     font-size: 12px;
+    }
+    .fortnite__ul ul li {
+     font-size: 12px;
+    }
+}

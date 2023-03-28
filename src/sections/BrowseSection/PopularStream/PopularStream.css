@@ -1,0 +1,10 @@
+.popular__stream__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.section__wrapper .btn__margin{
+    margin-bottom: -42px;
+}
