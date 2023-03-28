@@ -4,3 +4,8 @@
   border-radius: calc(var(--border-radius-praimary) /2);
   color: white;
 }
+@media(max-width:400px){
+  .main__container{
+    padding: 0 calc(var(--padding-primary)/2);
+  }
+}
